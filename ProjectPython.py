@@ -17,6 +17,7 @@ for jobStructure in jobsHtml:
     # print(jobObject.city)
     # print(jobObject.time)
 print(len(jobs))
-with open('results/readme.txt', 'w') as file:
+with open('results/jobs.csv', 'w') as file:
+    file.write("Title;City;Time;Link\n")
     for job in jobs:
-         file.write(job.title + ":" + job.link + "\n")
+         file.write(job.title + ";" + job.city + ";" + job.time + ";" + job.link + "\n")
