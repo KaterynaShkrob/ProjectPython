@@ -3,6 +3,7 @@ import sys
 from bs4 import BeautifulSoup
 from CreatJob import createJob
 from requests.exceptions import ConnectionError
+
 search = sys.argv[1]
 print("Search jobs")
 print('Searching: ' + search)

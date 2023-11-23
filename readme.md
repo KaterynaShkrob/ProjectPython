@@ -1,7 +1,7 @@
 
 * search from terminal
 ```bash
- python .\ProjectPython.py Fahrer
+ python .\ProjectPython.py
  ```
 
 * search from file

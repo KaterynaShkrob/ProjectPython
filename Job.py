@@ -4,4 +4,3 @@ class Job:
         self.city = city
         self.time = time
         self.link = link
-
